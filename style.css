@@ -1,0 +1,15 @@
+* {
+    /*global styles*/
+    font-family:
+        system-ui, sans-serif; /*set default font to system-based font*/
+}
+
+input:invalid {
+    /*styles for invalid input fields*/
+    border: 2px solid red; /*set border color to red*/
+}
+
+input:valid {
+    /*styles for valid input fields*/
+    border: 2px solid green; /*set border color to green*/
+}
